@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function Example () {
-    const [ count, setCount ] = useState(0);
+    const [ count, setCount ] = useState(1);
     return (
         <div>
             <p>You clicked {count} times!</p>
@@ -11,3 +11,5 @@ function Example () {
         </div>
     );
 };
+
+export default Example;
