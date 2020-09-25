@@ -6,9 +6,12 @@ function ExampleWithManyStates () {
     const [ todos, setTodos ] = useState([{ text: 'Learn Hooks'}]);
     return (
         <div>
-            <p>You clicked {count} times!</p>
-            <button onClick={ () => setCount(count + 1) }>
-                Click me!
+            <button onClick={ () => setAge(age + 1) }>
+                Increase my age!
+            </button>
+            <p>You are {age} years old</p>
+            <button onClick={ () => setAge(age - 1) }>
+                Decrease my age!
             </button>
         </div>
     );
